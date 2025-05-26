@@ -34,7 +34,7 @@ services:
       start_period: 10s      
 
   kafka-alert-exporter:
-    image: kafka-alert-exporter
+    image: ghcr.io/vidy0725/autocon3-ws-a3:v1
     container_name: kafka-alert-exporter
     depends_on:
       kafka:
