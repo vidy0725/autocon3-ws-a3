@@ -270,16 +270,14 @@ Depending on your environment:
 ---
 13. Cleaning up everything
 
+    Destroy the lab using calb command:
+
     ```shell
-    sudo kubectl delete -f ./CRDs/iperf-client-setup.yaml --context kind-k8s01
-    sudo kubectl delete -f ./CRDs/iperf-server-setup.yaml --context kind-k8s02
-    sudo kubectl delete -f ./CRDs/iperf-server-controller.yaml --context kind-k8s02
-    sudo kubectl delete -f ./CRDs/iperf-server-configmap.yaml --context kind-k8s02
-    sudo kubectl delete -f ./CRDs/iperf-client-controller.yaml --context kind-k8s01 
-    sudo kubectl delete -f ./CRDs/iperf-client-configmap.yaml --context kind-k8s01
-    sudo kubectl delete -f ./CRDs/iperf-server-crd.yaml --context kind-k8s02
-    sudo kubectl delete -f ./CRDs/iperf-client-crd.yaml --context kind-k8s01    
+    cd clab-topology
+    sudo containerlab destroy
+    cd ..   
     ```
+
 ---
 
 ## **Summary**
