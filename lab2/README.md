@@ -200,7 +200,7 @@ Depending on your environment:
 2. Locate and click on any of the following ports to **open in your browser**:
    - **`8001`** — Prometheus Exporter (raw `/metrics` endpoint for scraping)
    - **`9095`** — Prometheus UI (query and inspect metric time series)
-   - **`3000`** — Grafana (interactive dashboards)
+   - **`3000`** — Grafana (interactive dashboards) **admin/secret**
    - **`9093`** — Alertmanager (view and manage active alerts)
 
 #### ☁️ If you're using **GitHub Codespaces**
